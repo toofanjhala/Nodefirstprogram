@@ -1,0 +1,19 @@
+{
+  "name": "nodefirstprogram",
+  "version": "1.0.0",
+  "description": "\"test program\"",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": " nodemon App.js",
+    "start-server": "node App.js"
+  },
+  "author": "Toofan Singh",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
